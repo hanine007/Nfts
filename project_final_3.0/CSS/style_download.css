@@ -1,0 +1,133 @@
+
+.congrat{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+.icon_congrat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width:100px
+}
+
+.icon_congrat  img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+    
+}
+.nft_container{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.repeating-linear {
+    color: pink;
+    border: 10px solid pink;
+    border-image: repeating-linear-gradient( 45deg, pink, pink 1%, purple 1%, purple 8%) 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+  }
+  
+  .repeating-linear:hover {
+    border-image: repeating-linear-gradient( 45deg, purple, purple 1%, pink 1%, pink 8%) 10;
+    color: purple;
+  }
+  /* styling for Pen, unrelated to border-image */
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  
+#divnft {
+    /* margin: 4em auto; */
+    width: 300px;
+    height: 300px;
+  }
+
+.repeating-linear  img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+
+
+.buttonDownload {
+	display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+  
+	background-color: #0097e6;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+.buttonDownload:hover {
+	background-color: #333;
+	color: white;
+}
+
+
+
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+	
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
+}
+
+.audun_success {
+    color: #ffffff;
+    background-color: #04fa00;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:.5em;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:12px;
+   width: 300px;
+}
+
+

@@ -1,0 +1,103 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.container_upload {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+   
+}
+
+.radio_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F7FA;;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+    /* box-shadow: inset 0.5px 0.5px 2px 0 rgba(0, 0, 0, 0.15); */
+}
+
+input[type="radio"] {
+    appearance: none;
+    display: none;
+}
+
+label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    border-radius: 9999px;
+    overflow: hidden;
+    transition: linear 0.3s;
+    color: #6e6e6edd;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #0097e6;
+    color: #f1f3f5;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+
+
+  
+  .box select {
+    background-color: #F5F7FA;
+    border: 1px solid #ddd;
+    color: #0097e6;
+    padding: 12px;
+    width: 100%;
+    
+    font-size: 20px;
+    /* box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2); */
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+
+  
+  .box select option {
+    padding: 30px;
+  }
+
+
+  .audun_warn {
+    color: #ffffff;
+    background-color: #fd2424;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:.5em;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:12px;
+   width: 100%;
+}
+
+
+
+.audun_success {
+    color: #ffffff;
+    background-color: #61ff5e;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:.5em;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:12px;
+   width: 100%;
+}
+
+
